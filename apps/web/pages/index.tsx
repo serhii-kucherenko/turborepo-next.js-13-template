@@ -1,10 +1,10 @@
-import { Button } from "ui";
+import { DummyButShareable } from "ui";
 
 export default function Web() {
   return (
     <div>
       <h1>Web</h1>
-      <Button />
+      <DummyButShareable appName="web" />
     </div>
   );
 }
